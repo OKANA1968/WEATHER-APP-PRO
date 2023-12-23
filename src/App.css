@@ -1,0 +1,145 @@
+/* Style global */
+/* App.css */
+@import '~leaflet/dist/leaflet.css';
+
+/* Autres styles... */
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style du conteneur de recherche */
+.search-container {
+  margin-top: 20px;
+  position: relative;
+}
+
+.search-container input {
+  width: 80%;
+  max-width: 300px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.search-container button {
+  padding: 12px 20px;
+  margin: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Style de la section de conditions météorologiques actuelles */
+.current-weather {
+  background-color: #e0e0e0;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Style du conteneur des prévisions horaires */
+.hourly-forecast-container {
+  display: flex;
+  overflow-x: auto;
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Style des éléments de prévisions horaires */
+.hourly-forecast-item {
+  text-align: center;
+  margin-right: 20px;
+}
+
+/* Style du conteneur de la mini-carte */
+.mini-map-container {
+  background-color: #e0e0e0;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between; /* Ajusté pour ajouter de l'espace entre les éléments */
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px; /* Ajoutez une marge intérieure pour l'espace autour du logo */
+}
+
+.logo-container img {
+  max-width: 100%;
+}
+
+.hourly-forecast-container {
+  text-align: center;
+}
+
+.hourly-forecast-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hourly-forecast-item {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* ... styles ultérieurs ... */
+
+#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.app-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-container {
+  align-self: flex-start;
+  margin-top: auto;
+  margin-left: 20px; /* Ajustez la marge gauche selon vos préférences */
+}
+
+.welcome-text {
+  text-align: center;
+  margin-bottom: 20px; /* Ajustez la marge basse selon vos préférences */
+}
+
+.search-container {
+  margin-top: 20px; /* Ajustez la marge haute selon vos préférences */
+}
